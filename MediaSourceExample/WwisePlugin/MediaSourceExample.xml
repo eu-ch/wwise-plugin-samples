@@ -1,0 +1,26 @@
+<PluginModule>
+  <SourcePlugin Name="MediaSourceExample" CompanyID="64" PluginID="4145">
+    <PluginInfo>
+      <PlatformSupport>
+        <Platform Name="Any">
+            <CanReferenceDataFile>true</CanReferenceDataFile>
+        </Platform>
+      </PlatformSupport>
+    </PluginInfo>
+    <Properties>
+      <Property Name="Duration" Type="Real32" SupportRTPCType="Exclusive" DisplayName="Duration">
+        <UserInterface Step="0.1" Fine="0.001" Decimals="3" UIMax="10" />
+        <DefaultValue>0.0</DefaultValue>
+        <AudioEnginePropertyID>0</AudioEnginePropertyID>
+        <Restrictions>
+          <ValueRestriction>
+            <Range Type="Real32">
+              <Min>0.001</Min>
+              <Max>1000</Max>
+            </Range>
+          </ValueRestriction>
+        </Restrictions>
+      </Property>
+    </Properties>
+  </SourcePlugin>
+</PluginModule>

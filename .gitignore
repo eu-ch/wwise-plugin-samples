@@ -1,0 +1,11 @@
+.vs
+.vscode
+*.aps
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+*.akd
+*.validationcache
+*.wsettings
+*/WwiseProject/.cache
