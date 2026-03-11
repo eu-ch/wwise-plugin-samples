@@ -1,0 +1,13 @@
+{
+    "Authoring": [
+        {
+            "Authoring/Help/MyAudioInput": ["Help/*"],
+            "Authoring/Data/Factory Assets/MyAudioInput": ["FactoryAssets/*"]
+        }
+    ],
+    "Common": [
+        {
+            "SDK/include/AK/Plugin": ["SoundEnginePlugin/MyAudioInputTypes.h"]
+        }
+    ]
+}

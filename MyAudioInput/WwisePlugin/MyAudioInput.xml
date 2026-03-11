@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginModule>
+  <SourcePlugin Name="MyAudioInput" CompanyID="64" PluginID="31963">
+    <PluginInfo>
+      <PlatformSupport>
+        <Platform Name="Any"></Platform>
+      </PlatformSupport>
+    </PluginInfo>
+    <Properties>
+    </Properties>
+  </SourcePlugin>
+</PluginModule>
